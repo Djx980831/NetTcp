@@ -70,7 +70,6 @@ public class HttpDemo {
         bw.write("\r\n");
         bw.flush();
 
-
         bw.close();
         br.close();
         socket.close();
