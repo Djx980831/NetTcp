@@ -56,7 +56,7 @@ public class TcpService {
             new Scanner(System.in);
             String str = null;
             while(true){
-                System.out.println("服务器请回带：");
+                System.out.println("服务器请回答：");
                 str = scanner.nextLine();
                 out.println(str);
                 out.flush();
